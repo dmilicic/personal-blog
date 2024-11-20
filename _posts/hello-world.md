@@ -4,8 +4,8 @@ excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
 coverImage: "/assets/blog/hello-world/cover.jpg"
 date: "2020-03-16T05:35:07.322Z"
 author:
-  name: Tim Neutkens
-  picture: "/assets/blog/authors/tim.jpeg"
+  name: Dario Milicic
+  picture: "/assets/blog/authors/profile.jpg"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
 ---

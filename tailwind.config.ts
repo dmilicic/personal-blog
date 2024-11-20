@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  darkMode: "class",
+  darkMode: "selector",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -18,8 +18,18 @@ const config: Config = {
         "accent-1": "#FAFAFA",
         "accent-2": "#EAEAEA",
         "accent-7": "#333",
+        "surface-container": "#DEE3E5",
+        "secondary-container": "#cde7ed",
+        "on-surface-container": "#F5FAFC",
+        "on-secondary-container": "#051f23",
+        "on-primary-container": "#001f25",
+        body: "#001F25",
+        menu: "#909A9D",
+        primary: "#006876",
+        secondary: "#4A6268",
+        tertiary: "#545D7E",
         success: "#0070f3",
-        cyan: "#79FFE1",
+        cyan: "#A1EFFF",
       },
       spacing: {
         28: "7rem",

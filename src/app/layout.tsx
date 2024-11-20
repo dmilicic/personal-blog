@@ -6,12 +6,13 @@ import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
+import HeaderMenu from "./_components/header-menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: `Next.js Blog Example with ${CMS_NAME}`,
-  description: `A statically generated blog example using Next.js and ${CMS_NAME}.`,
+  title: `Dario Milicic - Senior Mobile Engineer`,
+  description: `I'm a Senior Mobile Engineer with a passion for mobile app development and AI. I specialize in building mobile apps for iOS and Android.`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },
@@ -58,9 +59,14 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body
-        className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
+        className={cn(
+          inter.className,
+          "dark:bg-slate-900 dark:text-slate-400",
+          "hero-background"
+        )}
       >
-        <ThemeSwitcher />
+        <HeaderMenu />
+        {/* <ThemeSwitcher /> */}
         <div className="min-h-screen">{children}</div>
         <Footer />
       </body>
