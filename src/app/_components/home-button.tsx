@@ -8,7 +8,7 @@ const HomeButton = () => {
   };
 
   return (
-    <Link href={"https://dmilicic.com"}>
+    <Link href={"/"}>
       <MdHome className="ml-4" color="secondary" fontSize="1.6em" />
     </Link>
   );

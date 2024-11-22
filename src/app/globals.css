@@ -8,3 +8,8 @@
   background-size: 40px 40px;
   background-position: -40px -40px;
 }
+
+p a {
+  color: #1a202c;
+  text-decoration: underline;
+}

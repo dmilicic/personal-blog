@@ -1,9 +1,8 @@
 import Footer from "@/app/_components/footer";
-import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
-import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
 import HeaderMenu from "./_components/header-menu";
@@ -49,14 +48,39 @@ export default function RootLayout({
           href="/favicon/safari-pinned-tab.svg"
           color="#000000"
         />
-        <link rel="shortcut icon" href="/favicon/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon/favicon.png" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta
           name="msapplication-config"
           content="/favicon/browserconfig.xml"
         />
         <meta name="theme-color" content="#000" />
+
+        <meta
+          name="description"
+          content="Blog - Senior Mobile Developer - Dario Milicic"
+        />
+
+        <meta
+          name="keywords"
+          content="Senior Android Engineer, Senior Mobile Engineer, Software Engineer, App Developer, Android Developer, Flutter Developer, Android, Kotlin, Flutter, Dart, Dario Milicic"
+        />
+        <meta name="author" content="Dario Milicic" />
+        <meta property="og:title" content="Blog by Dario" />
+        <meta
+          property="og:description"
+          content="Blog - Senior Mobile Engineer - Dario Milicic"
+        />
+
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/dart.min.js"></script>
       </head>
       <body
         className={cn(
@@ -66,7 +90,6 @@ export default function RootLayout({
         )}
       >
         <HeaderMenu />
-        {/* <ThemeSwitcher /> */}
         <div className="min-h-screen">{children}</div>
         <Footer />
       </body>
