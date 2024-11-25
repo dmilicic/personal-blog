@@ -3,6 +3,7 @@ import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
+import { Analytics } from "@vercel/analytics/next";
 
 import "./globals.css";
 import HeaderMenu from "./_components/header-menu";
@@ -34,13 +35,13 @@ export default function RootLayout({
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon/favicon-32x32.png"
+          href="/favicon/Icon-32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon/favicon-16x16.png"
+          href="/favicon/Icon-16.png"
         />
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <link
@@ -92,6 +93,7 @@ export default function RootLayout({
         <HeaderMenu />
         <div className="min-h-screen">{children}</div>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
