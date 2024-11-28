@@ -1,5 +1,5 @@
 ---
-title: "Writing a personal website in Flutter Web"
+title: "Writing a Personal Website in Flutter Web"
 excerpt: "This is a journey on how I built my portfolio website in Flutter Web. You will learn about motivations, challenges and techniques applied to give users a unique web experience."
 coverImage: "/assets/blog/flutter-web/cover.png"
 date: "2024-10-20T05:35:07.322Z"

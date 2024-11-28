@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const About: React.FC = () => {
   return (
@@ -13,11 +14,17 @@ const About: React.FC = () => {
           <span className="text-secondary font-bold">
             building mobile applications
           </span>{" "}
-          for <span className="text-green-800 font-bold">Android</span> and{" "}
-          <span className="text-tertiary font-bold">Flutter</span>. I've built
-          apps for various industries including healthcare, finance, and
-          e-commerce and have helped multiple companies deliver their complex
-          apps to market.
+          for
+          <Link href="https://www.android.com/" className="no-underline">
+            <span className="text-green-800 font-bold"> Android</span>
+          </Link>{" "}
+          and{" "}
+          <Link href="https://flutter.dev/" className="no-underline">
+            <span className="text-tertiary font-bold">Flutter</span>
+          </Link>
+          . I've built apps for various industries including healthcare,
+          finance, and e-commerce and have helped multiple companies deliver
+          their complex apps to market.
         </p>
       </div>
     </div>

@@ -7,6 +7,7 @@ import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 import Script from "next/script";
+import Avatar from "@/app/_components/avatar";
 
 export default async function Post(props: Params) {
   const params = await props.params;
@@ -30,6 +31,12 @@ export default async function Post(props: Params) {
             author={post.author}
           />
           <PostBody content={content} />
+          <div className="mx-auto max-w-2xl pl-8 pt-8">
+            <Avatar
+              name={"Dario Milicic"}
+              picture={"/assets/blog/authors/profile.jpg"}
+            />
+          </div>
         </article>
       </Container>
 
