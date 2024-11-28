@@ -9,6 +9,7 @@ export function Footer() {
         <About />
 
         <iframe
+          id="subscribe-form"
           src="https://embeds.beehiiv.com/aac05b6f-130f-4fdd-9cf7-6f50f0923957"
           data-test-id="beehiiv-embed"
           width="100%"

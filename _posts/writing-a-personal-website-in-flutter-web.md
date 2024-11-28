@@ -1,6 +1,5 @@
 ---
 title: "Writing a personal website in Flutter Web"
-# excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
 excerpt: "This is a journey on how I built my portfolio website in Flutter Web. You will learn about motivations, challenges and techniques applied to give users a unique web experience."
 coverImage: "/assets/blog/flutter-web/cover.png"
 date: "2024-10-20T05:35:07.322Z"
@@ -88,7 +87,7 @@ To make the background effect work on most devices I decided to simply reduce th
 
 It resulted in the following effect when zooming in and out:
 
-![Showcasing the background effect of the portfolio website.](https://miro.medium.com/v2/resize:fit:720/format:webp/1*ta-gRXHSKxZokRz5P8JIYQ.gif)
+![Showcasing the background effect of the portfolio website.](https://dmilicic-blog.s3.us-east-2.amazonaws.com/background-effect.gif)
 
 The separation of zoom levels is not perfect but it gets the job done. This is the logic that drives it, the values are determined by experimentation:
 
@@ -117,9 +116,7 @@ Why am I building a custom cursor, you say? Well… there is nothing really wron
 
 By navigating the canvas, this is what I mean:
 
-<!-- ![Showcasing how to navigate the canvas page](/assets/blog/flutter-web/navigating-canvas.gif) -->
-
-![Showcasing how to navigate the canvas page](https://miro.medium.com/v2/resize:fit:720/format:webp/1*TjhN-bzb6Lf2uFhfwqyaRg.gif)
+![Showcasing how to navigate the canvas page](https://dmilicic-blog.s3.us-east-2.amazonaws.com/navigating-canvas.gif)
 
 You can almost feel like you are touching the canvas and sliding it across the screen. That's exactly the effect I was going for. It's one of those things that's not necessary but I still wanted to add it.
 
@@ -161,7 +158,7 @@ We also keep track if the pointer is down or up so that the orange circle widget
 
 This is what is actually happening with the cursor visible:
 
-![Showcasing how the orange dot chases the cursor](/assets/blog/flutter-web/cursor-chase.gif)
+![Showcasing how the orange dot chases the cursor](https://dmilicic-blog.s3.us-east-2.amazonaws.com/cursor-chase.gif)
 
 The _AnimatedPosition_ is used to animate the cursor to your pointer location in a smooth way, so you can notice it moving almost instantly to your mouse:
 

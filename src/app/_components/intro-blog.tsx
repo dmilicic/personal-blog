@@ -9,9 +9,9 @@ export function IntroBlog() {
         Writing about{" "}
         <span className="text-primary font-bold">mobile app development</span>{" "}
         in <span className="text-green-800 font-bold">Android</span> and{" "}
-        <span className="text-tertiary font-bold">Flutter</span>, and taking
-        tech to the extreme. Subscribe to be notified when I post new crazy
-        implementations of these technologies.
+        <span className="text-tertiary font-bold">Flutter</span>, and using this
+        tech with my own twists. Subscribe to be notified when I post new
+        unusual implementations of these technologies.
       </h4>
 
       <iframe
