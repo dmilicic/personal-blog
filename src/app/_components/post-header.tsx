@@ -28,6 +28,15 @@ export function PostHeader({ title, coverImage, date, author }: Props) {
         <div className="m-6 text-lg">
           <DateFormatter dateString={date} />
         </div>
+
+        <iframe
+          src="https://embeds.beehiiv.com/aac05b6f-130f-4fdd-9cf7-6f50f0923957?slim=true"
+          data-test-id="beehiiv-embed"
+          height="52"
+          frameBorder="0"
+          scrolling="no"
+          className="m-4 border-radius: 0px !important; background-color: transparent;"
+        ></iframe>
       </div>
     </>
   );
