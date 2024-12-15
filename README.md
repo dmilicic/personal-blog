@@ -2,6 +2,10 @@
 
 The blog is available here: https://blog.dmilicic.com
 
+It accompanies my Flutter Web portfolio website at https://dmilicic.com.
+
+It's main purpose is to be a SEO-friendly part of all my personal websites.
+
 This is built on top of the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter).
 
 The purpose of this blog is to statically generate blog posts using Markdown files as the data source.
