@@ -1,5 +1,7 @@
 # A personal statically generated blog using Next.js, Markdown, and TypeScript
 
+The blog is available here: https://blog.dmilicic.com
+
 This is built on top of the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter).
 
 The purpose of this blog is to statically generate blog posts using Markdown files as the data source.
