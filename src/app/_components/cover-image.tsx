@@ -6,9 +6,10 @@ type Props = {
   title: string;
   src: string;
   slug?: string;
+  coverImageAttribution?: string;
 };
 
-const CoverImage = ({ title, src, slug }: Props) => {
+const CoverImage = ({ title, src, slug, coverImageAttribution }: Props) => {
   const image = (
     <Image
       src={src}
@@ -28,6 +29,17 @@ const CoverImage = ({ title, src, slug }: Props) => {
         </Link>
       ) : (
         image
+      )}
+      {coverImageAttribution && (
+        <div className="text-xs bg-center text-gray-500 text-right">
+          <a
+            href={coverImageAttribution}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            &copy; {new Date().getFullYear()} Software Stock photos by Vecteezy
+          </a>
+        </div>
       )}
     </div>
   );

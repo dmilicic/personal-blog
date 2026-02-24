@@ -1,5 +1,4 @@
 import Container from "@/app/_components/container";
-import Tag from "./tag";
 import About from "./about";
 
 export function Footer() {
@@ -21,7 +20,7 @@ export function Footer() {
       </Container>
 
       <div className="h-8 w-full text-center border-on-primary-container items-center justify-center">
-        Copyright © 2024. All rights reserved.
+        Copyright © 2026. All rights reserved.
       </div>
     </footer>
   );
