@@ -2,7 +2,8 @@
 title: 'Should you care about "Good Code" in 2026'
 excerpt: "As the age of agentic coding is upon us, this blog explores what it means to have good code in 2026, should you care and has the definition of good code changed from before"
 coverImage: "/assets/blog/good-code-2026/cover.jpg"
-date: "2026-02-20T08:00:00.000Z"
+coverImageAttribution: "https://www.vecteezy.com/free-photos/software"
+date: "2026-02-24T08:00:00.000Z"
 author:
   name: Dario Milicic
   picture: "/assets/blog/authors/profile.jpg"

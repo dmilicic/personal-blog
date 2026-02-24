@@ -7,11 +7,18 @@ import { type Author } from "@/interfaces/author";
 type Props = {
   title: string;
   coverImage: string;
+  coverImageAttribution?: string;
   date: string;
   author: Author;
 };
 
-export function PostHeader({ title, coverImage, date, author }: Props) {
+export function PostHeader({
+  title,
+  coverImage,
+  coverImageAttribution,
+  date,
+  author,
+}: Props) {
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -19,7 +26,11 @@ export function PostHeader({ title, coverImage, date, author }: Props) {
         <Avatar name={author.name} picture={author.picture} />
       </div>
       <div className="mb-8 md:mb-16 sm:mx-0">
-        <CoverImage title={title} src={coverImage} />
+        <CoverImage
+          title={title}
+          src={coverImage}
+          coverImageAttribution={coverImageAttribution}
+        />
       </div>
       <div className="flex flex-col sm:flex-row max-w-2xl mx-auto items-center">
         <div className="block md:hidden">
