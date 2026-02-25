@@ -21,6 +21,8 @@ Now that we have agents that have no mental fatigue, unprecedented ability to bu
 
 I would argue **YES**, it should be necessary. I believe it is equally valid for an AI agent and for a human to have readable/maintainable code. If you are not a software engineer, then it's likely that it will take much more time and/or tokens to get the same result, and you still might care about making the codebase robust.
 
+Therefore, good code in 2026 is the same as it has always been. Keep it simple, do not repeat yourself too much, and try to keep it [SOLID](https://www.designgurus.io/course-play/grokking-solid-design-principles/doc/solid-design-principles?gad_source=1&gad_campaignid=23163907085&gbraid=0AAAAADME9yqrOqqeo9Hsd32IG0c1nF_95&gclid=CjwKCAiA2PrMBhA4EiwAwpHyC-iKx2Ki0gc5_ylPqNPd_AGsdlHQgfwAj03w4rHdKyR2zZs9ZvnGIRoCcJsQAvD_BwE).
+
 Let me explain why and try to give you a glimpse of my vision for the foreseeable future.
 
 ## **How should we work on projects in 2026**
