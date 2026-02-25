@@ -19,7 +19,11 @@ As a software engineer, I always tried to make my code as readable as possible, 
 
 Now that we have agents that have no mental fatigue, unprecedented ability to build context at speed, and are always maximally motivated, is the extra effort to produce readable code necessary, or is it just a waste of tokens?
 
-I would argue YES, it should be necessary. I believe it is equally valid for an AI agent and for a human to have readable/maintainable code. Let me explain why and try to give you a glimpse of my vision for the foreseeable future.
+I would argue **YES**, it should be necessary. I believe it is equally valid for an AI agent and for a human to have readable/maintainable code. If you are not a software engineer, then it's likely that it will take much more time and/or tokens to get the same result, and you still might care about making the codebase robust.
+
+Therefore, good code in 2026 is the same as it has always been. Keep it simple, do not repeat yourself too much, and try to keep it [SOLID](https://www.designgurus.io/course-play/grokking-solid-design-principles/doc/solid-design-principles?gad_source=1&gad_campaignid=23163907085&gbraid=0AAAAADME9yqrOqqeo9Hsd32IG0c1nF_95&gclid=CjwKCAiA2PrMBhA4EiwAwpHyC-iKx2Ki0gc5_ylPqNPd_AGsdlHQgfwAj03w4rHdKyR2zZs9ZvnGIRoCcJsQAvD_BwE).
+
+Let me explain why and try to give you a glimpse of my vision for the foreseeable future.
 
 ## **How should we work on projects in 2026**
 
@@ -41,7 +45,7 @@ There are many reasons you should still care, but I will list the three I find m
 
 ### **1. AI will train on it**
 
-The case for this is that “garbage in -> garbage out” still applies. The AI knows only what it’s trained on, and if it’s trained on a quality codebase, it will nudge it to generate similar code. Otherwise, we are creating a new layer of generational technical debt. Write good code now so that the AI of the future provides good code for you. This is why I put this as number one, it has the most impact on all of us.
+This is the long-term look, it won't affect you immediately but might in the future. The case for this is that “garbage in -> garbage out” still applies. The AI knows only what it’s trained on, and if it’s trained on a quality codebase, it will nudge it to generate similar code. Otherwise, we are creating a new layer of generational technical debt. Write good code now so that the AI of the future provides good code for you. This is why I put this as number one, it has the most impact on all of us.
 
 Without decades of discussions about good code and without manually writing millions of lines, we wouldn’t have the AI of today. I would like to express my appreciation to the millions of engineers who have shared their knowledge with the world, it has turned out to be more important than we could have imagined.
 
@@ -49,7 +53,9 @@ Without decades of discussions about good code and without manually writing mill
 
 The twist, the special sauce, the innovation, that is something that AI helps with, but does not write in the end. The devil was always in the details. I found that it simply takes more time and wasted tokens for an AI to make small changes. Most of the time, I will just use AI for inspiration and for an initial implementation, but it will be a person with skill who will do the final touches.
 
-The best analogy that I have seen is an airline pilot. At this point, most of the flying is done by a computer except during takeoffs/landings, and if there’s something dangerous going on, it will likely be the pilot who takes over. You simply need someone who knows what they are doing to navigate around the obstacles that AI stumbles upon. I don’t think this will change for at least a few years, if ever.
+The best analogy that I have seen is an airline pilot. At this point, most of the flying is done by a computer except during takeoffs/landings, and if there’s something dangerous going on, it will likely be the pilot who takes over. On the not so extreme end, you probably do not want to prompt to change a variable name, similarly, you probably do not want to call an electrician to change your light bulb at home. You can do that but it's probably a waste of time and money.
+
+You simply need someone who knows what they are doing to navigate around the obstacles that AI stumbles upon, and don't want to waste tokens for very small changes. I don’t think this will change for at least a few years, if ever.
 
 ### **3. Make it easy for AI (or yourself) to add changes**
 
